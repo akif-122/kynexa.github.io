@@ -1,0 +1,794 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800;900&display=swap');
+
+
+body{
+	font-family: 'Hammersmith One', sans-serif;
+}
+
+.wrapper{
+	overflow: hidden;
+}
+
+/*
+=====================================
+	NAVBAR SECTION STRT
+=====================================
+*/
+.header{
+	position: relative;
+	z-index: 1000;
+	margin-bottom: 130px;
+}
+.header:after{
+	content: '';
+	background: #12526D;
+	width: 200%;
+	border-radius: 50%;
+	height: 200%;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -10;
+}
+
+
+.header .navbar{
+	margin-bottom: 60px;
+}
+.header .navbar .navbar-brand h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.header .navbar  ul li a{
+	font-size: 22px;
+	color: #fff;
+	margin: 5px 10px;
+	font-weight: 500;
+}
+
+.header .header-text h1{
+	font-size: 55px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 3px;
+
+
+}
+.header .header-text p{
+	font-size:26px;
+	color: #fff;
+	margin: 20px 0;
+	font-weight: 300;
+}
+
+.register-btn{
+	display: inline-block;
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #fff;
+	border-radius: 15px;
+	padding: 18px 30px;
+	background: #02CAFF;
+	margin-top: 20px;
+}
+
+/*
+=====================================
+	NAVBAR SECTION end
+=====================================
+*/
+
+
+/*
+=====================================
+	METAVERSE SECTION START
+=====================================
+*/
+
+
+.metaverse{
+	margin-top: 20px;
+	margin: 70px 0;
+	z-index: 100;
+	position: relative;
+}
+
+.metaverse:before{
+	content: '';
+	background: #12526D;
+	width: 100%;
+	border-radius: 0%;
+	height: 100%;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: linear-gradient(to bottom, #11A8C9 , transparent);
+
+	z-index: -100;
+}
+
+.metaverse h2{
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 45px;
+	color: #0E4680;
+}
+.metaverse p{
+	font-size: 21px;
+	line-height: 1.3;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+	margin: 70px 0;
+	color: #000;
+
+}
+
+/*
+=====================================
+	METAVERSE SECTION END
+=====================================
+*/
+
+
+
+/*
+=====================================
+	SIGN UP SECTION START
+=====================================
+*/
+.signup{
+	background: #155E79;
+	position: relative;
+	z-index: 100;
+	padding-bottom: 40px;
+	padding-top: 20px;
+	z-index: 1000;
+}
+
+.shade{
+	position: relative;
+	z-index: 1;
+}
+.shade:after{
+	content: "";
+	width: 100%;
+	height: 300px;
+	background: linear-gradient(to top, #11A8C9 , transparent);
+	position: absolute;
+	bottom: 300px;
+	left: 0;
+	z-index: -100;
+}
+
+.signup h3{
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: 4px;
+	color: #fff;
+	margin: 20px 0;
+}
+
+.signup p{
+	font-size: 20px;
+	font-family: Poppins;
+	color: #fff;
+}
+.signup .signupbtn{
+	padding: 10px 15px;
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+	background: #02CAFF;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 10px 0;
+	border: 1px solid #02CAFF;
+	letter-spacing: 3px;
+}
+.signup .signupbtn:hover{
+	color: #02CAFF;
+	background: transparent;
+}
+
+.signup-img{
+	margin-top: -110px;
+}
+/*
+=====================================
+	SIGN UP SECTION END
+=====================================
+*/
+
+
+
+
+
+@media screen and (max-width: 991px){
+
+.header .header-text h1{
+	font-size: 45px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 3px;
+
+
+}
+.header .header-text p{
+	font-size:24px;
+	color: #fff;
+	margin: 20px 0;
+	font-weight: 300;
+}
+
+.register-btn{
+	display: inline-block;
+	font-size: 22px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #fff;
+	border-radius: 15px;
+	padding: 18px 30px;
+	background: #02CAFF;
+	margin-top: 20px;
+}
+
+/*
+=====================================
+	METAVERSE SECTION START
+=====================================
+*/
+
+
+.metaverse{
+	margin-top: 20px;
+	margin: 70px 0;
+	z-index: 100;
+	position: relative;
+	text-align: center;
+}
+
+.metaverse:before{
+	content: '';
+	background: #12526D;
+	width: 100%;
+	border-radius: 0%;
+	height: 100%;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: linear-gradient(to bottom, #E0F6FB , transparent);
+
+	z-index: -100;
+}
+
+.metaverse h2{
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 40px;
+	color: #0E4680;
+}
+.metaverse p{
+	font-size: 18px;
+	line-height: 1.3;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+	margin: 40px 0;
+	color: #000;
+
+}
+
+/*
+=====================================
+	METAVERSE SECTION END
+=====================================
+*/
+
+
+/*
+=====================================
+	SIGN UP SECTION START
+=====================================
+*/
+.signup{
+	background: #155E79;
+	position: relative;
+	z-index: 100;
+	padding-bottom: 40px;
+	padding-top: 20px;
+	z-index: 1000;
+	text-align: center;
+}
+
+.shade{
+	position: relative;
+	z-index: 1;
+}
+.shade:after{
+	content: "";
+	width: 100%;
+	height: 300px;
+	background: linear-gradient(to top, #E0F6FB , transparent);
+	position: absolute;
+	bottom: 300px;
+	left: 0;
+	z-index: -100;
+}
+
+.signup h3{
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: 4px;
+	color: #fff;
+	margin: 20px 0;
+}
+
+.signup p{
+	font-size: 17px;
+	font-family: Poppins;
+	color: #fff;
+}
+.signup .signupbtn{
+	padding: 10px 15px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	background: #02CAFF;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 10px 0;
+	border: 1px solid #02CAFF;
+	letter-spacing: 3px;
+}
+.signup .signupbtn:hover{
+	color: #02CAFF;
+	background: transparent;
+}
+
+.signup-img{
+	margin-top: -100px;
+}
+
+.signup-img img{
+	width: 150%;
+}
+/*
+=====================================
+	SIGN UP SECTION END
+=====================================
+*/
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 575px){
+/*
+=====================================
+	NAVBAR SECTION STRT
+=====================================
+*/
+.header{
+	position: relative;
+	z-index: 1000;
+	margin-bottom: 100px;
+}
+.header:after{
+	content: '';
+	background: #12526D;
+	width: 280%;
+	border-radius: 50%;
+	height: 180%;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -10;
+}
+
+
+.header .navbar{
+	margin-bottom: 60px;
+}
+.header .navbar .navbar-brand h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.header .navbar  ul li a{
+	font-size: 22px;
+	color: #fff;
+	margin: 5px 10px;
+	font-weight: 500;
+}
+
+.header .header-text h1{
+	font-size: 28px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 3px;
+
+
+}
+.header .header-text p{
+	font-size:26px;
+	color: #fff;
+	margin: 20px 0;
+	font-weight: 300;
+}
+
+.register-btn{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #fff;
+	border-radius: 15px;
+	padding: 18px 30px;
+	background: #02CAFF;
+	margin-top: 20px;
+}
+.header{
+	text-align: center;
+}
+.header img{
+	width: 90%;
+}
+
+/*
+=====================================
+	NAVBAR SECTION end
+=====================================
+*/
+
+
+/*
+=====================================
+	METAVERSE SECTION START
+=====================================
+*/
+
+
+.metaverse{
+	margin-top: 20px;
+	margin: 70px 0;
+	z-index: 100;
+	position: relative;
+}
+
+.metaverse:before{
+	content: '';
+	background: #12526D;
+	width: 100%;
+	border-radius: 0%;
+	height: 100%;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: linear-gradient(to bottom, #E0F6FB , transparent);
+
+	z-index: -100;
+}
+
+.metaverse h2{
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 24px !important;
+	color: #0E4680;
+}
+.metaverse p{
+	font-size: 14px !important;
+	line-height: 1.3;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+	margin: 30px 0;
+	color: #000;
+
+}
+
+/*
+=====================================
+	METAVERSE SECTION END
+=====================================
+*/
+
+
+/*
+=====================================
+	SIGN UP SECTION START
+=====================================
+*/
+.signup{
+	background: #155E79;
+	position: relative;
+	z-index: 100;
+	padding-bottom: 40px;
+	padding-top: 20px;
+	z-index: 1000;
+	text-align: center;
+}
+
+.shade{
+	position: relative;
+	z-index: 1;
+}
+.shade:after{
+	content: "";
+	width: 100%;
+	height: 300px;
+	background: linear-gradient(to top, #E0F6FB , transparent);
+	position: absolute;
+	bottom: 300px;
+	left: 0;
+	z-index: -100;
+}
+
+.signup h3{
+	font-size: 18px !important;
+	font-weight: 500;
+	letter-spacing: 4px;
+	color: #fff;
+	margin: 20px 0;
+}
+
+.signup p{
+	font-size: 14px !important;
+	font-family: Poppins;
+	color: #fff;
+}
+.signup .signupbtn{
+	padding: 10px 15px;
+	font-size: 14px !important;
+	font-weight: 600;
+	color: #fff;
+	background: #02CAFF;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 10px 0;
+	border: 1px solid #02CAFF;
+	letter-spacing: 3px;
+}
+.signup .signupbtn:hover{
+	color: #02CAFF;
+	background: transparent;
+}
+
+.signup-img{
+	margin-top: 40px;
+}
+
+.signup-img img{
+	width: 130%;
+}
+/*
+=====================================
+	SIGN UP SECTION END
+=====================================
+*/
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 767px){
+/*
+=====================================
+	NAVBAR SECTION STRT
+=====================================
+*/
+.header{
+	position: relative;
+	z-index: 1000;
+	margin-bottom: 200px;
+}
+.header:after{
+	content: '';
+	background: #12526D;
+	width: 250%;
+	border-radius: 50%;
+	height: 180%;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -10;
+}
+
+
+.header .navbar{
+	margin-bottom: 60px;
+}
+.header .navbar .navbar-brand h3{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.header .navbar  ul li a{
+	font-size: 22px;
+	color: #fff;
+	margin: 5px 10px;
+	font-weight: 500;
+}
+
+.header .header-text h1{
+	font-size: 28px;
+	color: #fff;
+	font-weight: 500;
+	letter-spacing: 3px;
+
+
+}
+.header .header-text p{
+	font-size:26px;
+	color: #fff;
+	margin: 20px 0;
+	font-weight: 300;
+}
+
+.register-btn{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #fff;
+	border-radius: 15px;
+	padding: 18px 30px;
+	background: #02CAFF;
+	margin-top: 20px;
+}
+.header{
+	text-align: center;
+}
+.header img{
+	width: 90%;
+}
+
+/*
+=====================================
+	NAVBAR SECTION end
+=====================================
+*/
+
+
+/*
+=====================================
+	METAVERSE SECTION START
+=====================================
+*/
+
+
+.metaverse{
+	margin-top: 20px;
+	margin: 70px 0;
+	z-index: 100;
+	position: relative;
+}
+
+.metaverse:before{
+	content: '';
+	background: #12526D;
+	width: 100%;
+	border-radius: 0%;
+	height: 100%;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: linear-gradient(to bottom, #E0F6FB , transparent);
+
+	z-index: -100;
+}
+
+.metaverse h2{
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 30px;
+	color: #0E4680;
+}
+.metaverse p{
+	font-size: 16px;
+	line-height: 1.3;
+	font-weight: 500;
+	font-family: 'Poppins', sans-serif;
+	margin: 30px 0;
+	color: #000;
+
+}
+
+/*
+=====================================
+	METAVERSE SECTION END
+=====================================
+*/
+
+
+/*
+=====================================
+	SIGN UP SECTION START
+=====================================
+*/
+.signup{
+	background: #155E79;
+	position: relative;
+	z-index: 100;
+	padding-bottom: 40px;
+	padding-top: 20px;
+	z-index: 1000;
+	text-align: center;
+}
+
+.shade{
+	position: relative;
+	z-index: 1;
+}
+.shade:after{
+	content: "";
+	width: 100%;
+	height: 300px;
+	background: linear-gradient(to top, #E0F6FB , transparent);
+	position: absolute;
+	bottom: 300px;
+	left: 0;
+	z-index: -100;
+}
+
+.signup h3{
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: 4px;
+	color: #fff;
+	margin: 20px 0;
+}
+
+.signup p{
+	font-size: 17px;
+	font-family: Poppins;
+	color: #fff;
+}
+.signup .signupbtn{
+	padding: 10px 15px;
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	background: #02CAFF;
+	border-radius: 5px;
+	display: inline-block;
+	margin: 10px 0;
+	border: 1px solid #02CAFF;
+	letter-spacing: 3px;
+}
+.signup .signupbtn:hover{
+	color: #02CAFF;
+	background: transparent;
+}
+
+.signup-img{
+	margin-top: 40px;
+}
+
+.signup-img img{
+	width: 130%;
+}
+/*
+=====================================
+	SIGN UP SECTION END
+=====================================
+*/
+
+
+
+}
